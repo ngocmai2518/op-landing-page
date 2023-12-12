@@ -27,3 +27,16 @@ main {
   gap: 16px;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px
+}
+.hero-text {
+  flex: 0 0 500px;
+}
+.hero img {
+  width: 500px;
+  height: auto;
+}
