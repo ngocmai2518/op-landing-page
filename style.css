@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: "Roboto", "Veranda", "Arial", sans-serif;
+  color: #1F2937;
 }
 
 main {
@@ -11,6 +13,7 @@ main {
   justify-content: center;
 
 }
+
 /* Header section */
 .header {
   height: 50px;
@@ -33,6 +36,9 @@ main {
   justify-content: flex-end;
   gap: 16px;
 }
+a {
+  text-decoration: none;
+}
 
 /* Hero Section */
 .hero {
@@ -42,13 +48,13 @@ main {
   gap: 48px
 }
 .hero-text {
-  flex: 0 0 300px;
+  flex: 0 0 500px;
 }
 .cover-photo {
-  width: 300px;
+  width: 500px;
 }
 .hero img{
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 
@@ -61,12 +67,12 @@ main {
   justify-content: center;
 }
 .card-photo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 .card img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 .card div {
@@ -96,4 +102,60 @@ button {
   height: 50px;
   justify-content: center;
   align-items: center;
+}
+
+/* Color & Text */
+.header, .hero, .footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.hero-secondary, .headerlinks {
+  font: 18px;
+  color: #E5E7EB
+}
+
+.information h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+
+.card div {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  color: #F9FAF8
+}
+
+.call-to-action h1 {
+  font-size: 24px;
+}
+
+.call-to-action p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
