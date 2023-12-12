@@ -40,14 +40,9 @@ button {
   align-items: center;
   padding: 8px 200px 0 200px;
 }
-.logo {
-  width: 50px;
-  height: 50px;
-}
+
 .header img {
   height: 50px;
-  width: 50px;
-  object-fit: cover;
 }
 .header-right {
   display: flex;
@@ -66,29 +61,30 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 200px 150px 200px;
-  gap: 50px;
+  padding: 100px 50px 150px 50px;
+  flex-wrap: wrap;
+}
+.hero-text {
+  margin: 20px;
+  width: 450px;
+}
+.cover-photo {
+  width: 450px;
+  margin: 20px;
 }
 .hero-main {
   font-size: 48px;
   font-weight: extra-bold;
   margin-bottom: 16px;
 }
-.hero-text {
-  flex: 0 0 500px;
-}
 .hero-secondary {
   font: 18px;
   color: #E5E7EB;
   margin-bottom: 16px;
 }
-
-.cover-photo {
-  width: 500px;
-}
 .hero img{
-  width: 500px;
-  height: auto;
+  max-width: 100%;
+  min-width: 300px;
 }
 .hero button {
   border: none;
@@ -96,7 +92,7 @@ a {
 
 /* Information Section */
 .information {
-  padding: 50px 200px 100px 200px;
+  padding: 50px;
 }
 .information h1 {
   text-align: center;
@@ -107,6 +103,8 @@ a {
 .information .containers {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .card {
   margin: 16px;
@@ -135,6 +133,12 @@ a {
 .quote-section {
   background-color: #E5E7EB;
   padding: 100px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-section .content {
+  flex-shrink: 0;
 }
 .quote {
   font-size: 36px;
@@ -151,6 +155,11 @@ a {
 /* Call to action */
 .call-to-action {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action .box {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3882F6;
@@ -158,6 +167,7 @@ a {
   padding: 50px 100px;
   margin: 100px 200px;
   border-radius: 8px;
+  width: 1500px;
 }
 .call-to-action h1 {
   font-size: 24px;
@@ -168,11 +178,15 @@ a {
   font-size: 14px;
   font-weight: 100;
 }
+.call-to-action button {
+  margin-left: 50px;
+  flex-shrink: 0;
+}
 
 /* Footer */
 .footer {
   display: flex;
-  height: 50px;
+  height: 100px;
   justify-content: center;
   align-items: center;
 }
