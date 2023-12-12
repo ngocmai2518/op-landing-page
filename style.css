@@ -15,10 +15,15 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-
+.header img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
 .header-right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 16px;
 }
+
