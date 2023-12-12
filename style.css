@@ -40,3 +40,20 @@ main {
   width: 500px;
   height: auto;
 }
+
+
+.information h1 {
+  text-align: center;
+}
+.information .containers {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.card div {
+  text-align: center;
+}
